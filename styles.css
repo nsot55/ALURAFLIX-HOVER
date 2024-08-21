@@ -1,0 +1,35 @@
+body {
+    color: rgb(13, 204, 218);
+    background: rgb(5, 5, 5);
+
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px blue;
+
+    padding: 20px;
+
+    font-size: 32px;
+
+    color: cornflowerblue;
+}
+
+section {
+    background-color: blue;
+    padding: 3px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 34px;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+
+iframe:hover {
+    margin-left: 40px;
+    scale: 1.1;
+    transition: all 0.5s;
+}
