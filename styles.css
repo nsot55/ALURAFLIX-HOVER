@@ -15,7 +15,7 @@ header {
     color: cornflowerblue;
 }
 
-section {
+.chamada {
     background-color: blue;
     padding: 3px;
     margin-bottom: 40px;
@@ -32,4 +32,25 @@ iframe:hover {
     margin-left: 40px;
     scale: 1.1;
     transition: all 0.5s;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    height: 200px
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
